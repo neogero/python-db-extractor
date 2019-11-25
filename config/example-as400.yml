@@ -1,0 +1,16 @@
+connection:
+  connectionUri: jdbc:as400://localhost:446
+  libName: com.ibm.as400.access.AS400JDBCDriver
+  libUri: jt400-8.5.jar
+  user: user
+  password: password
+
+database: library_name
+tables: 
+  - table1
+  - table2
+  - table3
+  - table3
+  - tableN
+  
+outputDirectory: ./output/
