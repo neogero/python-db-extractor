@@ -12,3 +12,5 @@ things to add to the tool:
 - Add parameters input
 - Adding CI
 - Add SQLite output
+
+.
