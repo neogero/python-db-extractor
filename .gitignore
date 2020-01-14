@@ -112,3 +112,5 @@ dmypy.json
 /**/__pycache__
 /config/*pro.yml
 /output/*
+
+*.db

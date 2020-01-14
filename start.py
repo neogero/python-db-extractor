@@ -26,6 +26,7 @@ def main():
         result = export_table(conn, conf, table)
         result_file = table+'.csv'
         files.write_csv_result(result_file, result, conf, date_time)
+        files.writeSQLiteTable(table, result, conf)
 
     database.db_close(conn)
     finish_time = datetime.now()

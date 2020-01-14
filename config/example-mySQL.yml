@@ -1,0 +1,12 @@
+connection:
+  connectionUri: jdbc:mysql://localhost:3306
+  libName: com.mysql.cj.jdbc.Driver
+  libUri: mysql-connector-java-8.0.19.jar
+  user: pruebas
+  password: pruebas
+
+database: pruebas
+tables: 
+  - prueba1
+
+outputDirectory: ./output/
